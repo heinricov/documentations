@@ -1,6 +1,8 @@
 # Ini adalah Kumpulan Dokumen yang dibuat untuk memulai project
 
-### Syntax Markdown
+- Other
 
-Dokumen ini dibuat dengan menggunakan syntax markdown.
-bisa cek di file [Syntax Markdown](./other/syntax-markdown.md)
+  - [Syntax Markdown](./other/syntax-markdown.md)
+
+- Nextjs
+  - [Conection Postgresql](./Nextjs/conection-pgsql.md)
