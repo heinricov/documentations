@@ -2,7 +2,7 @@
 
 ### install package
 
-- [ ] Nextjs [documentasi](https://nextjs.org/docs)
+- [ ] Installasi Nextjs [documentasi](https://nextjs.org/docs) atau [installasi Nextjs](./Installasi.md)
 
 ```bash
 npx create-next-app@latest
