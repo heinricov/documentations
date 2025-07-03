@@ -14,8 +14,10 @@ npx create-next-app@latest .
 npx shadcn@latest init
 ```
 
+// add components shadcn/ui
+
 ```bash
-npx shadcn@latest add [component]
+npx shadcn@latest add
 ```
 
 ## Install and Configure Prisma
