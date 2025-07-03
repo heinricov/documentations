@@ -76,7 +76,31 @@ npx prisma migrate dev --name init
 mkdir -p lib && touch lib/prisma.ts
 ```
 
+copy code dari [documentasi Prisma](https://www.prisma.io/docs/guides/nextjs#25-set-up-prisma-client)
+
+## Buat API Routes
+
+berisi method GET, POST, PUT, DELETE
+
+```bash
+mkdir -p pages/api && touch pages/api/hello.ts
+```
+
 ## Deploy Ke Vercel
 
+- rubah file package.json pada bagian scripts menjadi seperti ini :
+
+```json
+"scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "postinstall": "prisma generate --no-engine",
+    "lint": "next lint"
+  },
+```
+
+- cek build project : npm run build
+- cek preview project : npm run start
 - buat repository di github
 - add project ke vercel
