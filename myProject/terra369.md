@@ -20,6 +20,22 @@ npx shadcn@latest init
 npx shadcn@latest add
 ```
 
+Dark mode
+
+```bash
+npm install next-themes
+```
+
+buat file theme-provider.tsx di dalam folder components
+
+```bash
+mkdir -p components/providers && touch components/providers/theme-provider.tsx
+```
+
+copy code dari [documentasi](https://ui.shadcn.com/docs/dark-mode/next#create-a-theme-provider)
+
+bungkus root layout dengan theme provider [cek](https://ui.shadcn.com/docs/dark-mode/next#wrap-your-root-layout)
+
 ## Install and Configure Prisma
 
 ```bash
