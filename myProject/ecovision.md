@@ -10,7 +10,7 @@ EcoVision adalah platform yang dirancang untuk memfasilitasi pengetahuan dan pem
 - Postgresql
 - Fetch API
 
-## Instalasi
+## Instalasii
 
 - [ ] Installasi Nextjs : npx create-next-app@latest
 - [ ] Installasi Shadcn/ui : npx shadcn@latest init
