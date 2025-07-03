@@ -46,12 +46,17 @@ npm install prisma tsx --save-dev
 npm install @prisma/extension-accelerate @prisma/client
 ```
 
+```bash
+npx prisma init --db --output ../app/generated/prisma
+```
+
 > Ini akan menciptakan
 >
 > - file prisma/schema.prisma
 > - file prisma database
 > - file .env (didalam ada DATABASE_URL)
 > - Direktori keluaran untuk client Prisma yang dihasilkan sebagai app/generated/prisma.
+> - ini akan mengharilkan database project di prisma.
 
 ## Tentukan Schema Prisma
 
