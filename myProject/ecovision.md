@@ -1,10 +1,20 @@
-# Project Plan Nextjs dengan menggunakan database postgresql via prisma
+# EcoVision
+
+EcoVision adalah platform yang dirancang untuk memfasilitasi pengetahuan dan pemahaman tentang lingkungan, kesehatan, dan keberlanjutan. Platform ini dirancang untuk memberikan wawasan yang mendalam tentang berbagai topik lingkungan, termasuk kesehatan, keberlanjutan, dan lingkungan.
+
+## Teknologi yang digunakan
+
+- Nextjs
+- Shadcn/ui
+- Prisma
+- Postgresql
+- Fetch API
 
 ## Instalasi
 
 - [ ] Installasi Nextjs : npx create-next-app@latest
 - [ ] Installasi Shadcn/ui : npx shadcn@latest init
-- add components shadcn/ui : npx shadcn@latest add
+- [ ] add components shadcn/ui : npx shadcn@latest add
 - [ ] theme : npm install next-themes
 - [ ] buat file theme-provider.tsx : mkdir -p components/providers && touch components/providers/theme-provider.tsx
 - [ ] edit file theme-provider.tsx
@@ -17,7 +27,7 @@
 - [ ] jalankan migrasi database : npx prisma migrate dev --name init
 - [ ] buat file prisma.ts di dalam folder lib/ : mkdir -p lib && touch lib/prisma.ts
 - [ ] edit file lib/prisma.ts sebagai instance prisma
-- [ ] buat file ConnectionAction.ts atau file apapun yang anda inginkan dan di dalam folder lib/ yang berguna untuk membuat koneksi action seperti create, update, delete, read dan ambil semua data dari database postgresql : mkdir -p lib && touch lib/ConnectionAction.ts
+- [ ] buat file API : mkdir -p api && touch api/[api].ts
 
 # Link
 
