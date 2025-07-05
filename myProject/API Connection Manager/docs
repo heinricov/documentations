@@ -1,0 +1,42 @@
+# API Connection Manager
+
+API Connection Manager adalah alat yang dirancang untuk memfasilitasi pengetahuan dan pemahaman tentang lingkungan, kesehatan, dan keberlanjutan. Platform ini dirancang untuk memberikan wawasan yang mendalam tentang berbagai topik lingkungan, termasuk kesehatan, keberlanjutan, dan lingkungan.
+
+## Teknologi yang digunakan
+
+- Nextjs
+- Shadcn/ui
+
+## Instalasi
+
+- [ ] Installasi Nextjs :
+
+```bash
+npx create-next-app@latest
+```
+
+- [ ] Installasi Shadcn/ui :
+
+```bash
+npx shadcn@latest add button input label card tabs table scroll-area separator toast sonner
+```
+
+- [ ] Dark mode :
+
+```bash
+npm install next-themes
+```
+
+- [ ] buat file theme-provider.tsx:
+
+```bash
+mkdir -p components/providers && touch components/providers/theme-provider.tsx
+```
+
+- [ ] copy file theme-provider.tsx dari [documentasi shadcn/ui](https://ui.shadcn.com/docs/dark-mode/next#create-a-theme-provider) lalu paste di file [theme-provider.tsx](@/components/providers/theme-provider.tsx)
+
+- [ ] edit root layout seprti pada [documentasi shadcn/ui](https://ui.shadcn.com/docs/dark-mode/next#wrap-your-root-layout) lalu paste di file [layout.tsx](@/app/layout.tsx)
+
+- [ ] letakan file [api-connection-form.tsx](./api-connection-form.tsx) di dalam folder components
+- [ ] lalu buat halaman yang diinginkan dan copy code dari file [use-page.tsx](./use-page.tsx)
+- [ ] jalan npm run dev untuk menjalankan aplikasi di lokal project
